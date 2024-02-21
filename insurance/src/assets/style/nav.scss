@@ -1,106 +1,109 @@
-// nav {
-// 	&.primary-navigation {
-// 	  margin: 0 auto;
-// 	  display: block;
-// 	 padding: 10px;
-// 	  font-size: 16px;
-// 	  background-color: #3ca0e758;
 
-// 	  ul li {
-// 		list-style: none;
-// 		margin: 0 auto;
-// 		border-left: 2px solid #e73c3c;
-// 		display: inline-block;
-// 		padding: 0 30px;
-// 		position: relative;
-// 		text-decoration: none;
-// 		text-align: center;
-// 		font-family: arvo;
-// 	  }
 
-// 	  li a {
-// 		color: black;
-// 	  }
-
-// 	  li a:hover {
-// 		color: #3ca0e7;
-// 	  }
-
-// 	  li:hover {
-// 		cursor: pointer;
-// 	  }
-
-// 	  ul li ul {
-// 		visibility: hidden;
-// 		opacity: 0;
-// 		position: absolute;
-// 		z-index: 34567865;
-//   padding-left: 0;
-// 		left: 0;
-// 		display: none;
-// 		background: white;
-// 		border-radius: 10px;
-// 	  }
-
-// 	  ul li:hover > ul,
-// 	  ul li ul:hover {
-// 		visibility: visible;
-// 		opacity: 1;
-// 		display: block;
-// 		min-width: 250px;
-// 		text-align: left;
-// 		padding-top: 20px;
-// 		box-shadow: 0px 3px 5px -1px #ccc;
-// 	  }
-
-// 	  ul li ul li {
-// 		clear: both;
-// 		width: 100%;
-// 		text-align: left;
-// 		margin-bottom: 20px;
-// 		border-style: none;
-// 	  }
-
-// 	  ul li ul li a:hover {
-// 		padding-left: 10px;
-// 		border-left: 2px solid #3ca0e7;
-// 		transition: all 0.3s ease;
-// 	  }
-// 	}
-//   }
-
-//   a {
-
-// 	  text-decoration: none;
-
-// 	  &:hover {
-// 		  color: #3CA0E7;
-// 	  }
-
-//   }
-
-//    ul li ul li a { transition: all 0.5s ease; }
-//    .banner{
-// 	img{
-// 		height: 500px;
-// 		width: 100vw;
-// 	}
-//    }
-.nav-item {
-  padding: 10px;
-  .nav-link {
-    color: red;
-    font-size: 18px;
-    
-  }
-}
-.banner {
-	
-  .imgsz {
-    height: 500px;
-    width: 100vw;
-  }
+.footerheight{
+  height: fit-content;
 }
 .logo {
   width: 70px;
 }
+.imgsz{
+  height: 550px !important;
+  width: 100vw !important;
+}
+.nav-link{
+  font-size: 15px !important;
+  letter-spacing: 1px !important;
+
+}
+.nav-link:hover{
+  font-size: 17px !important;
+  background: hsl(233.96deg 100% 70.78%) !important;
+  color: white !important;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  border-radius: 10px !important;
+
+}
+a{
+  text-decoration: none !important;
+  // color: white !important;
+}
+a:hover{
+  color: rgb(255, 234, 0) !important;
+}
+.zoom-card {
+  transition: transform 0.2s;
+}
+
+.zoom-card:hover {
+  transform: scale(1.05);
+}
+.aboutimg{
+  height: 500px;
+  width: 100%;
+}
+
+.types{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.types:hover{
+  transition: transform 0.2s;
+  transform: scale(.9);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
+
+}
+table th, table tr, table td {
+  border: 2px solid rgb(1, 162, 255);
+  padding: 15px;
+  text-align: center;
+}
+.carpolicybg{
+background-image: url(../images/carpolicybg.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.carpolicycard{
+  background-color: #ffffff00;
+  border-radius: 15px 50px;
+  color: rgb(255, 255, 255);
+  border: 6px solid rgba(255, 255, 255, 0.779);
+
+  height: 350px;
+  animation: carpolicycard 3s ease-in-out infinite;
+}
+.carpolicycard1{
+  background-color: #ffffff00;
+  border-radius:50px  15px ;
+  color: rgb(255, 255, 255);
+  border: 6px solid rgba(255, 255, 255, 0.779);
+  height: 350px;
+  
+}
+.carpolicycard:hover{
+  border: 7px solid rgb(255, 0, 0);
+  background-color: #00000033;
+
+}
+.carpolicycard1:hover{
+  border: 7px solid rgb(255, 0, 0);
+  background-color: #00000033;
+
+
+}
+// @keyframes carpolicycard {
+//   0% {
+//     border: 10px solid rgb(255, 74, 74);
+//   }
+//   50% {
+//     border: 10px solid rgb(252, 255, 94);
+
+//   }
+//   100% {
+//     border: 10px solid rgb(95, 126, 239);
+
+//   }
+// }
