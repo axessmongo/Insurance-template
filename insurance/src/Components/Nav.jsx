@@ -17,6 +17,9 @@ import senior from "../assets/images/senior.png";
 import accident from "../assets/images/accident.png";
 import healthbanner from "../assets/images/health-banner1.png";
 import car from "../assets/images/car-insu1.png";
+import banner from "../assets/images/banner 1.jpg";
+import banner1 from "../assets/images/banner-1.jpg";
+import banner2 from "../assets/images/banner-2.jpg";
 
 function Nav() {
   return (
@@ -25,7 +28,7 @@ function Nav() {
 
       <section className="nav-banner">
         <nav
-          className="navbar navbar-expand-lg navbar-light bg-light "
+          className="navbar navbar-expand-lg navbar-light bg-light fixed-top"
           id="home"
         >
           <div className="container-fluid">
@@ -79,7 +82,7 @@ function Nav() {
         </nav>
       </section>
       {/* Banner */}
-      <section className="herobanner banner" id="home">
+      <section className="herobanner banner mt-5" id="home">
         <div
           id="carouselExampleSlidesOnly"
           className="carousel slide"
@@ -88,27 +91,30 @@ function Nav() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={healthbanner}
+                src={banner}
                 className="d-block  imgsz img-fluid"
                 alt="Slide 1"
               />
             </div>
             <div className="carousel-item">
               <img
-                src={bike}
+                src={banner1}
                 className="d-block imgsz img-fluid"
                 alt="Slide 2"
               />
             </div>
             <div className="carousel-item">
               <img
-                src={car}
+                src={banner2}
                 className="d-block img-fluid imgsz "
                 alt="Slide 3"
               />
             </div>
           </div>
         </div>
+        {/* <div>
+          <img src={banner} className="img-fluid imgsz mt-4" alt="" />
+        </div> */}
       </section>
       {/* About */}
       <section className="container" id="about">
@@ -163,7 +169,9 @@ function Nav() {
       {/* OUR CORE VALUES */}
       <section className="container mt-5" id="corevalue">
         <div>
-          <h1 className="text-center text-danger p-5">𝕆𝕌ℝ ℂ𝕆ℝ𝔼 𝕍𝔸𝕃𝕌𝔼𝕊</h1>
+          <h1 className="text-center text-danger m-5 corevalue">
+            𝕆𝕌ℝ ℂ𝕆ℝ𝔼 𝕍𝔸𝕃𝕌𝔼𝕊
+          </h1>
           <div className="row justify-content-around">
             <div
               className="col-md-4 mt-3"
@@ -239,7 +247,7 @@ function Nav() {
         <div className="mt-3">
           <div className="row justify-content-center text-center">
             <div
-              className="col-md-3  mt-3"
+              className="col-md-3 col-sm-6  mt-3"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -251,7 +259,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -263,7 +271,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -275,7 +283,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -289,7 +297,7 @@ function Nav() {
           </div>
           <div className="row justify-content-center text-center">
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -301,7 +309,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-right"
               data-aos-duration="1000"
             >
@@ -313,7 +321,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -325,7 +333,7 @@ function Nav() {
               </div>
             </div>
             <div
-              className="col-md-3 mt-3"
+              className="col-md-3 col-sm-6 mt-3"
               data-aos="fade-left"
               data-aos-duration="1000"
             >
@@ -347,7 +355,13 @@ function Nav() {
             There are several types of insurance plans available. Some of the
             commonly preferred ones include the following:
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up"  data-aos-duration="600">Life insurance :</li>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Life insurance :
+          </li>
           <p data-aos="fade-up" data-aos-duration="600">
             Life insurance is what you can avail in order to safeguard your
             family in case of your death during the tenor of the policy.The most
@@ -356,7 +370,13 @@ function Nav() {
             amount that is paid out in the event of the policy holder’s death
             within the policy period
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Health insurance :</li>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Health insurance :
+          </li>
           <p data-aos="fade-up" data-aos-duration="600">
             This is purchased for covering medical expenses revolving around
             various health issues, including hospitalisation, treatments and so
@@ -364,20 +384,38 @@ function Nav() {
             emergencies; you can also avail of cashless facility across network
             hospitals of the insurer
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Child Plans :</li>
-          <p data-aos="fade-up" data-aos-duration="600">
+          <li
+            className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Child Plans :
+          </li>
+          <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
             These insurance policies are savings instruments that help in
             generating lump sum funds whenever children reach a certain age for
             pursuing higher studies. In these plans, the life assured is that of
             the child or the recipient of the funds while the parents are the
             policy owners
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Home insurance :</li>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Home insurance :
+          </li>
           <p data-aos="fade-up" data-aos-duration="600">
             These insurance plans cover any damages to the home on account of
             accidents, mishaps and natural calamities, among other such events
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Fire Insurance</li>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Fire Insurance
+          </li>
 
           <p data-aos="fade-up" data-aos-duration="600">
             Fire insurance has been designed to reimburse the cost of repair,
@@ -385,9 +423,15 @@ function Nav() {
             in a fire. Besides, fire insurance also covers property loss or
             damages due to smoke, water and damages caused by the firefighters.
           </p>
-          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Bike Insurance</li>
+          <li
+            className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Bike Insurance
+          </li>
 
-          <p data-aos="fade-up" data-aos-duration="600">
+          <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
             A comprehensive bike insurance policy covers both the own damages
             and third-party liabilities. Under its own damage, it gives
             protection against burglary or theft and damage caused by accidents,
@@ -400,8 +444,11 @@ function Nav() {
         <h1 className="text-center my-3">Sample Illustration$$</h1>
         <div>
           <div className="row">
-            <div className="col-md-6" data-aos="zoom-in"
-              data-aos-duration="1000">
+            <div
+              className="col-md-6"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
               <div className="bg-body-tertiary rounded-2">
                 <p className="p-4">
                   Premiums given are excluding taxes for Life Cover of 1 Cr.,
@@ -454,8 +501,11 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6" data-aos="zoom-out"
-              data-aos-duration="1000">
+            <div
+              className="col-md-6"
+              data-aos="zoom-out"
+              data-aos-duration="1000"
+            >
               <div className="bg-body-tertiary rounded-2">
                 <p className="p-4">
                   Premiums given are excluding taxes for Life Cover of 1 Cr.,
@@ -511,10 +561,120 @@ function Nav() {
           </div>
         </div>
       </section>
+      <section className="container mt-5">
+        <div>
+          <h5
+            className="fw-semibold fs-3  py-2 px-3 rounded-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Need for Insurance
+          </h5>
+
+          <p data-aos="fade-up" data-aos-duration="600">
+            Insurance plans are beneficial to anyone looking to protect their
+            family, assets/property and themselves from financial risk/losses:
+          </p>
+          <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
+            Insurance plans will help you pay for medical emergencies,
+            hospitalisation, contraction of any illnesses and treatment, and
+            medical care required in the future.
+          </li>
+          <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
+            The financial loss to the family due to the unfortunate death of the
+            sole earner can be covered by insurance plans. The family can also
+            repay any debts like home loans or other debts which the person
+            insured may have incurred in his/her lifetime
+          </li>
+          <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
+            Insurance plans will help your family maintain their standard of
+            living in case you are not around in the future. This will help them
+            cover the costs of running the household through the insurance lump
+            sum payout. The insurance money will give your family some
+            much-needed breathing space along with coverage for all expenditure
+            in case of death/accident/medical emergency of the policyholder
+          </li>
+          <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
+            Insurance plans will help in protecting the future of your child in
+            terms of his/her education. They will make sure that your children
+            are financially secured while pursuing their dreams and ambitions
+            without any compromises, even when you are not around
+          </li>
+          {/* <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
+            IMany insurance plans come with savings and investment schemes along
+            with regular coverage. These help in building wealth/savings for the
+            future through regular investments. You pay premiums regularly and a
+            portion of the same goes towards life coverage while the other
+            portion goes towards either a savings plan or investment plan,
+            whichever you choose based on your future goals and needs
+          </li> */}
+          {/* <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
+            Insurance helps protect your home in the event of any unforeseen
+            calamity or damage. Your home insurance plan will help you get
+            coverage for damages to your home and pay for the cost of repairs or
+            rebuilding, whichever is needed. If you have coverage for valuables
+            and items inside the house, then you can purchase replacement items
+            with the insurance money
+          </li> */}
+        </div>
+        <div>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Promotes Personal Economic Growth
+          </li>
+          <p data-aos="fade-up" data-aos-duration="600">
+            One of the most important benefits of life insurance is that it
+            enables you to save and grow your money. You can use this amount to
+            meet your long-term goals, like buying a house, starting a venture,
+            saving for your child’s education or wedding, and more
+          </p>
+        </div>
+        <div>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Useful for retirement planning
+          </li>
+          <p data-aos="fade-up" data-aos-duration="600">
+            Life insurance can enable you to stay financially independent even
+            during your retirement. Life insurance plans like annuity plans
+            provide you with a fixed income for life. They are low-risk plans
+            that help you maintain your current lifestyle, meet medical expenses
+            and meet your post-retirement goals
+          </p>
+        </div>
+        <div>
+          <li
+            className="fw-bold text-success fs-4 pb-3"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Provides tax benefits
+          </li>
+          <p data-aos="fade-up" data-aos-duration="600">
+            Life insurance helps you plan for the future, while helping you save
+            tax* in the present. The premiums paid under the policy are allowed
+            as tax* deductions of up to ₹ 1.5 lakh per annum subject to
+            conditions under Section 80C of The Income Tax Act, 1961. You can
+            save up to ₹ 46,800/- in taxes* every year. Further, the amounts
+            received under the policy are also exempt* subject to conditions
+            under Section 10(10D) of the Income Tax Act, 1961.
+          </p>
+        </div>
+      </section>
       {/* car insurance policy  */}
-      <section className="carpolicybg">
+      <section className="carpolicybg ">
         <div className="container">
-          <h2 className="p-5 text-center text-white" data-aos="fade-up" data-aos-duration="600">
+          <h2
+            className="p-5 text-center text-white"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
             How to choose the right car insurance policy online?
           </h2>
           <div className="row justify-content-around p-5">
@@ -622,17 +782,21 @@ function Nav() {
               emergency. These situations also include an accident or damage to
               your vehicle, property, etc.
             </p>
-            <p data-aos="fade-up" data-aos-duration="600">
+            {/* <p data-aos="fade-up" data-aos-duration="600">
               Bearing the financial impact of these situations can burn a hole
               into your pocket. You may need to dip into your savings or your
               family’s hard-earned money. Thus, there is a pressing need of
               insurance for you and your family for proper coverage and
               financial support against all risks linked to your life, health
               and property.
-            </p>
+            </p> */}
           </div>
           <div>
-            <h5 className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="600">
+            <h5
+              className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Why is Insurance Important?
             </h5>
             <p data-aos="fade-up" data-aos-duration="600">
@@ -644,8 +808,14 @@ function Nav() {
               them cover immediate expenses and secures their long-term
               financial stability.
             </p>
-            <p data-aos="fade-up" data-aos-duration="600">Below are some reasons why insurance is important:</p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            <p data-aos="fade-up" data-aos-duration="600">
+              Below are some reasons why insurance is important:
+            </p>
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Promotes Personal Economic Growth
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
@@ -657,10 +827,14 @@ function Nav() {
               improve their financial situation by investing in businesses,
               purchasing real estate and more.
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            <li
+              className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Generates Long-Term Wealth
             </li>
-            <p data-aos="fade-up" data-aos-duration="600">
+            <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
               Life insurance plans like endowment, money-back or Unit-Linked
               Insurance Plans (ULIPs) provide a means to accumulate wealth over
               time. These policies offer long-term savings and investment
@@ -668,114 +842,32 @@ function Nav() {
               insurance can be used for various financial goals like retirement,
               a child's higher education and others.
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
-              Supports Families in Medical Emergencies
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600">
-              The importance of insurance is particularly pronounced in today's
-              times. Medical expenses are skyrocketing due to medical inflation
-              and the increasing frequency of various illnesses1. Therefore,
-              having a robust health insurance policy is essential at this time.
-              Health insurance offers financial protection against medical
-              costs. It provides an affordable solution by allowing you to buy
-              policies with a high sum assured without straining your wallet. It
-              also guarantees access to quality healthcare services in your hour
-              of need.
-            </p>
-          </div>
-          <div>
-            <h5 className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="600">
-              Need for Insurance
-            </h5>
-
-            <p data-aos="fade-up" data-aos-duration="600">
-              Insurance plans are beneficial to anyone looking to protect their
-              family, assets/property and themselves from financial risk/losses:
-            </p>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-              Insurance plans will help you pay for medical emergencies,
-              hospitalisation, contraction of any illnesses and treatment, and
-              medical care required in the future.
-            </li>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-              The financial loss to the family due to the unfortunate death of
-              the sole earner can be covered by insurance plans. The family can
-              also repay any debts like home loans or other debts which the
-              person insured may have incurred in his/her lifetime
-            </li>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-              Insurance plans will help your family maintain their standard of
-              living in case you are not around in the future. This will help
-              them cover the costs of running the household through the
-              insurance lump sum payout. The insurance money will give your
-              family some much-needed breathing space along with coverage for
-              all expenditure in case of death/accident/medical emergency of the
-              policyholder
-            </li>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-              Insurance plans will help in protecting the future of your child
-              in terms of his/her education. They will make sure that your
-              children are financially secured while pursuing their dreams and
-              ambitions without any compromises, even when you are not around
-            </li>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-              IMany insurance plans come with savings and investment schemes
-              along with regular coverage. These help in building wealth/savings
-              for the future through regular investments. You pay premiums
-              regularly and a portion of the same goes towards life coverage
-              while the other portion goes towards either a savings plan or
-              investment plan, whichever you choose based on your future goals
-              and needs
-            </li>
-            <li className="pb-3" data-aos="fade-up" data-aos-duration="600" >
-              Insurance helps protect your home in the event of any unforeseen
-              calamity or damage. Your home insurance plan will help you get
-              coverage for damages to your home and pay for the cost of repairs
-              or rebuilding, whichever is needed. If you have coverage for
-              valuables and items inside the house, then you can purchase
-              replacement items with the insurance money
-            </li>
-          </div>
-          <div>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
-              Promotes Personal Economic Growth
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600"  >
-              One of the most important benefits of life insurance is that it
-              enables you to save and grow your money. You can use this amount
-              to meet your long-term goals, like buying a house, starting a
-              venture, saving for your child’s education or wedding, and more
-            </p>
-          </div>
-          <div>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
-              Useful for retirement planning
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600" >
-              Life insurance can enable you to stay financially independent even
-              during your retirement. Life insurance plans like annuity plans
-              provide you with a fixed income for life. They are low-risk plans
-              that help you maintain your current lifestyle, meet medical
-              expenses and meet your post-retirement goals
-            </p>
-          </div>
-          <div>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
-              Provides tax benefits
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600">
-              Life insurance helps you plan for the future, while helping you
-              save tax* in the present. The premiums paid under the policy are
-              allowed as tax* deductions of up to ₹ 1.5 lakh per annum subject
-              to conditions under Section 80C of The Income Tax Act, 1961. You
-              can save up to ₹ 46,800/- in taxes* every year. Further, the
-              amounts received under the policy are also exempt* subject to
-              conditions under Section 10(10D) of the Income Tax Act, 1961.
-            </p>
+            {/* <li
+                className="fw-bold text-success fs-4 pb-3"
+                data-aos="fade-up"
+                data-aos-duration="600"
+              >
+                Supports Families in Medical Emergencies
+              </li>
+              <p data-aos="fade-up" data-aos-duration="600">
+                The importance of insurance is particularly pronounced in today's
+                times. Medical expenses are skyrocketing due to medical inflation
+                and the increasing frequency of various illnesses1. Therefore,
+                having a robust health insurance policy is essential at this time.
+                Health insurance offers financial protection against medical
+                costs. It provides an affordable solution by allowing you to buy
+                policies with a high sum assured without straining your wallet. It
+                also guarantees access to quality healthcare services in your hour
+                of need.
+              </p> */}
           </div>
 
           <div>
-            <h5 className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3" data-aos="fade-up" data-aos-duration="600">
+            <h5
+              className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Selecting the Right Insurance Plan
             </h5>
 
@@ -784,7 +876,11 @@ function Nav() {
               potential. There are a number of factors that can impact the
               effectiveness of insurance. Below are some of them:
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Adequate Coverage
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
@@ -793,7 +889,11 @@ function Nav() {
               you save some money at the time of purchase but can lead to
               compromised financial security in an emergency.
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
               Ability to Pay Premium
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
@@ -804,7 +904,13 @@ function Nav() {
               monthly expenses. If the premium is too high, you may find it hard
               to continue paying for the policy in the long run.
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Policy Duration</li>
+            {/* <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Policy Duration
+            </li>
             <p data-aos="fade-up" data-aos-duration="600">
               Life insurance policies are long-term plans and often last for
               many years. When choosing a life insurance policy, it is vital to
@@ -814,38 +920,54 @@ function Nav() {
               policy that lasts at least until they become financially
               independent.
             </p>
-            <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">Personal Aspects</li>
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Personal Aspects
+            </li>
             <p data-aos="fade-up" data-aos-duration="600">
               Every individual's needs are unique. The kind of coverage you need
               can depend on your age, gender, occupation and lifestyle. For
               example, if your job requires you to work in accident-prone areas,
               it may be advised to buy a high sum assured and a longer policy
               term to ensure your family's financial security in your absence.
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
       {/* footer */}
       <section className="footerheight bg-black text-white mt-5" id="contact">
         <div className="row justify-content-around ">
-          <div className="col-md-3 mt-3">
+          <div className="col-md-3 mt-3  ">
             <div className="text-center">
               <h2 className="text-danger">Quick Link</h2>
 
               <p>
-                <a href="">Home</a>
+                <a href="#home" className="link1">
+                  Home
+                </a>
               </p>
               <p>
-                <a href="#about">About</a>
+                <a href="#about" className="link1">
+                  About
+                </a>
               </p>
               <p>
-                <a href="#corevalue">Core value</a>
+                <a href="#corevalue" className="link1">
+                  Core value
+                </a>
               </p>
               <p>
-                <a href="#types">Types</a>
+                <a href="#types" className="link1">
+                  Types
+                </a>
               </p>
               <p>
-                <a href="#contact">Contact</a>
+                <a href="#contact" className="link1">
+                  Contact
+                </a>
               </p>
             </div>
           </div>
