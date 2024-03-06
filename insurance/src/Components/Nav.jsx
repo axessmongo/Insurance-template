@@ -81,6 +81,12 @@ function Nav() {
           </div>
         </nav>
       </section>
+
+      <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+                <a href="https://axesstechnology.in/contact" target='_blank'>
+                <button className='buy-now-bt'>BuyNow</button></a>
+            </div>
+
       {/* Banner */}
       <section className="herobanner banner mt-5" id="home">
         <div
