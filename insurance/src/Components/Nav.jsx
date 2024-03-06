@@ -84,7 +84,6 @@ function Nav() {
           </div>
         </nav>
       </section>
-
       {/* Banner */}
       <section className="herobanner banner mt-5 pt-4 " id="home">
         <div
