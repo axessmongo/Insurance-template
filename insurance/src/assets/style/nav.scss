@@ -1,23 +1,29 @@
-
-
-.footerheight{
+.footerheight {
   height: fit-content;
 }
-.logo {
-  width: 70px;
+.logo-img {
+  width: 50px;
+  height: 50px;
 }
-
-.nav-link{
+.imgsz {
+  height: 100vh !important;
+  width: 100% !important;
+}
+// .navbar {
+//   width: 100%!important;
+//   justify-content: e !important;
+// }
+.nav-link {
   font-size: 15px !important;
   letter-spacing: 1px !important;
   border-left: 5px solid transparent !important;
   transition: none !important;
-
+  
+  
 }
 .nav-link:hover {
-  
   // background:#00379c!important;
-  border-left: 5px solid red !important; 
+  border-left: 5px solid red !important;
 
   // border-left: 5px solid #00379c;
   // border-right: 5px solid #00379c;
@@ -25,24 +31,22 @@
   font-weight: bold !important;
   letter-spacing: 1px !important;
   border-radius: 100px !important;
-  
-
 }
-a{
+a {
   text-decoration: none !important;
   // color: white !important;
 }
-.link1{
+.link1 {
   color: white !important;
 }
-.link1:hover{
-    // background:#00379c!important;
-    border-left: 2px solid red;
-    // color: white !important;
-    padding-left: 10px;
-    font-weight: bold !important;
-    letter-spacing: 1px !important;
-    // border-radius: 10px !important;
+.link1:hover {
+  // background:#00379c!important;
+  border-left: 2px solid red;
+  // color: white !important;
+  padding-left: 10px;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  // border-radius: 10px !important;
 }
 .zoom-card {
   transition: transform 0.2s;
@@ -51,74 +55,73 @@ a{
 .zoom-card:hover {
   transform: scale(1.05);
 }
-.aboutimg{
+.aboutimg {
   height: 500px;
   width: 100%;
 }
 
-.types{
+.types {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 20px;
 }
-.types:hover{
+.types:hover {
   transition: transform 0.2s;
-  transform: scale(.9);
+  transform: scale(0.9);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  
-
 }
-table th, table tr, table td {
+table th,
+table tr,
+table td {
   border: 2px solid rgb(1, 162, 255);
   padding: 15px;
   text-align: center;
 }
-.carpolicybg{
-background-image: url(../images/carpolicybg.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-
+.carpolicybg {
+  background-image: url(../images/carpolicybg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.carpolicycard{
+.carpolicycard {
   background-color: #ffffff00;
   border-radius: 15px 50px;
   color: rgb(255, 255, 255);
   border: 6px solid rgba(255, 255, 255, 0.779);
-
+  
   height: 400px;
   animation: carpolicycard 3s ease-in-out infinite;
 }
-.carpolicycard1{
+.carpolicycard1 {
   background-color: #ffffff00;
-  border-radius:50px  15px ;
+  border-radius: 50px 15px;
   color: rgb(255, 255, 255);
   border: 6px solid rgba(255, 255, 255, 0.779);
   height: 400px;
-  
+ 
 }
-.carpolicycard:hover{
+.carpolicycard:hover {
   border: 6px solid rgb(255, 0, 0);
   background-color: #00000033;
-
 }
-.carpolicycard1:hover{
+.carpolicycard1:hover {
   border: 6px solid rgb(255, 0, 0);
   background-color: #00000033;
-
-
+}
+.table-hover tbody tr:hover {
+  background-color: #e9ecef;
 }
 
-@media screen and (min-width:-576px) and (max-width: 1024px) {
-  .imgsz{
+@media screen and (min-width: -576px) and (max-width: 1024px) {
+  .imgsz {
     height: 300px !important;
     width: auto !important;
   }
 }
-@media screen and  (max-width: 768px)  {
+@media screen and (max-width: 768px) {
   .carpolicycard {
     height: auto !important;
   }
-  .carpolicycard1{
+  .carpolicycard1 {
     height: auto !important;
   }
 }

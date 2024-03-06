@@ -20,21 +20,24 @@ import car from "../assets/images/car-insu1.png";
 import banner from "../assets/images/banner 1.jpg";
 import banner1 from "../assets/images/banner-1.jpg";
 import banner2 from "../assets/images/banner-2.jpg";
+import insulogo from "../assets/images/newlogo.png";
 
 function Nav() {
   return (
     <div className="overflow-hidden">
       {/* Nav */}
 
-      <section className="nav-banner">
+      <section className="nav-banner  d-flex justify-content-end align-items-center">
         <nav
-          className="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+          className="navbar navbar-expand-lg navbar-light bg-light fixed-top m-auto rounded-2"
           id="home"
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              𝕴𝖓𝖘𝖚𝖗𝖆𝖓𝖈𝖊 𝕷𝖔𝖌𝖔
-            </a>
+        <img src={insulogo} className=" logo-img" alt="" />Company Name
+      </a>
+            
+
             <button
               className="navbar-toggler"
               type="button"
@@ -47,10 +50,10 @@ function Nav() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div
-              className="collapse navbar-collapse"
+              className="collapse navbar-collapse justify-content-center"
               id="navbarSupportedContent"
             >
-              <ul className="navbar-nav ms-auto mb-3 heading5 p-2 mb-lg-0 text-center">
+              <ul className="navbar-nav mb-3 heading5 p-2 mb-lg-0 text-center">
                 <li className="nav-item">
                   <a className="nav-link active px-3" href="#home">
                     Home
@@ -81,8 +84,9 @@ function Nav() {
           </div>
         </nav>
       </section>
+
       {/* Banner */}
-      <section className="herobanner banner mt-5" id="home">
+      <section className="herobanner banner mt-5 pt-4 " id="home">
         <div
           id="carouselExampleSlidesOnly"
           className="carousel slide"
@@ -117,7 +121,7 @@ function Nav() {
         </div> */}
       </section>
       {/* About */}
-      <section className="container" id="about">
+      <section className="container mt-5" id="about">
         <h1 className="text-center text-danger p-2 rounded-5 mt-5 display-4">
           𝔸𝕓𝕠𝕦𝕥
         </h1>
@@ -140,7 +144,7 @@ function Nav() {
             </div>
             <div className="col-md-6  d-flex  align-items-center">
               <div className="" data-aos="fade-left" data-aos-duration="1000">
-                <h3 className="text-center">BRIEF HISTORY OF THE COMPANY</h3>
+                <h3 className="text-center">𝙱𝚁𝙸𝙴𝙵 𝙷𝙸𝚂𝚃𝙾𝚁𝚈 𝙾𝙵 𝚃𝙷𝙴 𝙲𝙾𝙼𝙿𝙰𝙽𝚈</h3>
                 <p className=" p-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Mollitia repellendus officiis, optio tenetur veritatis aliquam
@@ -346,10 +350,12 @@ function Nav() {
             </div>
           </div>
         </div>
-        <div className="mt-5">
-          <h5 className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3">
-            Types of Insurance
-          </h5>
+      </section>
+      <section className=" mt-5 bg-info-subtle  py-5">
+        <div className="mt-5 container">
+          <h2 className="fw-semibold   pb-5 px-3 rounded-3">
+          𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
+          </h2>
 
           <p data-aos="fade-up">
             There are several types of insurance plans available. Some of the
@@ -385,13 +391,13 @@ function Nav() {
             hospitals of the insurer
           </p>
           <li
-            className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
+            className="fw-bold text-success fs-4 pb-3 "
             data-aos="fade-up"
             data-aos-duration="600"
           >
             Child Plans :
           </li>
-          <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
+          <p data-aos="fade-up" data-aos-duration="600">
             These insurance policies are savings instruments that help in
             generating lump sum funds whenever children reach a certain age for
             pursuing higher studies. In these plans, the life assured is that of
@@ -424,14 +430,14 @@ function Nav() {
             damages due to smoke, water and damages caused by the firefighters.
           </p>
           <li
-            className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
+            className="fw-bold text-success fs-4 pb-3 "
             data-aos="fade-up"
             data-aos-duration="600"
           >
             Bike Insurance
           </li>
 
-          <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
+          <p data-aos="fade-up" data-aos-duration="600">
             A comprehensive bike insurance policy covers both the own damages
             and third-party liabilities. Under its own damage, it gives
             protection against burglary or theft and damage caused by accidents,
@@ -440,9 +446,9 @@ function Nav() {
         </div>
       </section>
       {/* Sample Illustration */}
-      <section className="container mt-5">
-        <h1 className="text-center my-3">Sample Illustration$$</h1>
-        <div>
+      <section className=" mt-5 bg-success-subtle  py-5">
+        <h1 className="text-center text-danger p-5">𝕊𝕒𝕞𝕡𝕝𝕖 𝕀𝕝𝕝𝕦𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟$$</h1>
+        <div className="container mt-5">
           <div className="row">
             <div
               className="col-md-6"
@@ -501,6 +507,7 @@ function Nav() {
                 </div>
               </div>
             </div>
+
             <div
               className="col-md-6"
               data-aos="zoom-out"
@@ -561,14 +568,14 @@ function Nav() {
           </div>
         </div>
       </section>
-      <section className="container mt-5">
-        <div>
+      <section className=" mt-5 bg-warning-subtle  py-5">
+        <div className=" container">
           <h5
             className="fw-semibold fs-3  py-2 px-3 rounded-3"
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            Need for Insurance
+           𝙽𝚎𝚎𝚍 𝚏𝚘𝚛 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
           </h5>
 
           <p data-aos="fade-up" data-aos-duration="600">
@@ -586,15 +593,19 @@ function Nav() {
             repay any debts like home loans or other debts which the person
             insured may have incurred in his/her lifetime
           </li>
-          <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
+          {/* <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
             Insurance plans will help your family maintain their standard of
             living in case you are not around in the future. This will help them
             cover the costs of running the household through the insurance lump
             sum payout. The insurance money will give your family some
             much-needed breathing space along with coverage for all expenditure
             in case of death/accident/medical emergency of the policyholder
-          </li>
-          <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
+          </li> */}
+          <li
+            className="pb-3 d-none d-lg-block"
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
             Insurance plans will help in protecting the future of your child in
             terms of his/her education. They will make sure that your children
             are financially secured while pursuing their dreams and ambitions
@@ -616,67 +627,73 @@ function Nav() {
             and items inside the house, then you can purchase replacement items
             with the insurance money
           </li> */}
-        </div>
-        <div>
-          <li
-            className="fw-bold text-success fs-4 pb-3"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            Promotes Personal Economic Growth
-          </li>
-          <p data-aos="fade-up" data-aos-duration="600">
-            One of the most important benefits of life insurance is that it
-            enables you to save and grow your money. You can use this amount to
-            meet your long-term goals, like buying a house, starting a venture,
-            saving for your child’s education or wedding, and more
-          </p>
-        </div>
-        <div>
-          <li
-            className="fw-bold text-success fs-4 pb-3"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            Useful for retirement planning
-          </li>
-          <p data-aos="fade-up" data-aos-duration="600">
-            Life insurance can enable you to stay financially independent even
-            during your retirement. Life insurance plans like annuity plans
-            provide you with a fixed income for life. They are low-risk plans
-            that help you maintain your current lifestyle, meet medical expenses
-            and meet your post-retirement goals
-          </p>
-        </div>
-        <div>
-          <li
-            className="fw-bold text-success fs-4 pb-3"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            Provides tax benefits
-          </li>
-          <p data-aos="fade-up" data-aos-duration="600">
-            Life insurance helps you plan for the future, while helping you save
-            tax* in the present. The premiums paid under the policy are allowed
-            as tax* deductions of up to ₹ 1.5 lakh per annum subject to
-            conditions under Section 80C of The Income Tax Act, 1961. You can
-            save up to ₹ 46,800/- in taxes* every year. Further, the amounts
-            received under the policy are also exempt* subject to conditions
-            under Section 10(10D) of the Income Tax Act, 1961.
-          </p>
+
+          <div>
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Promotes Personal Economic Growth
+            </li>
+            <p data-aos="fade-up" data-aos-duration="600">
+              One of the most important benefits of life insurance is that it
+              enables you to save and grow your money. You can use this amount
+              to meet your long-term goals, like buying a house, starting a
+              venture, saving for your child’s education or wedding, and more
+            </p>
+          </div>
+          <div>
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Useful for retirement planning
+            </li>
+            <p data-aos="fade-up" data-aos-duration="600">
+              Life insurance can enable you to stay financially independent even
+              during your retirement. Life insurance plans like annuity plans
+              provide you with a fixed income for life. They are low-risk plans
+              that help you maintain your current lifestyle, meet medical
+              expenses and meet your post-retirement goals
+            </p>
+          </div>
+          <div>
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Provides tax benefits
+            </li>
+            <p data-aos="fade-up" data-aos-duration="600">
+              Life insurance helps you plan for the future, while helping you
+              save tax* in the present. The premiums paid under the policy are
+              allowed as tax* deductions of up to ₹ 1.5 lakh per annum subject
+              to conditions under Section 80C of The Income Tax Act, 1961. You
+              can save up to ₹ 46,800/- in taxes* every year. Further, the
+              amounts received under the policy are also exempt* subject to
+              conditions under Section 10(10D) of the Income Tax Act, 1961.
+            </p>
+          </div>
         </div>
       </section>
       {/* car insurance policy  */}
-      <section className="carpolicybg ">
+      <section className="carpolicybg mt-5 ">
         <div className="container">
           <h2
             className="p-5 text-center text-white"
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            How to choose the right car insurance policy online?
+            𝙷𝚘𝚠 𝚝𝚘 𝚌𝚑𝚘𝚘𝚜𝚎 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚌𝚊𝚛 𝚒𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝚙𝚘𝚕𝚒𝚌𝚢 𝚘𝚗𝚕𝚒𝚗𝚎?
           </h2>
+          <p className="text-white text-center ">
+              Before buying car insurance online, read the policy details and
+              fine print, and ask questions to clarify anything you need help
+              understanding. 
+            </p>
           <div className="row justify-content-around p-5">
             <div className="col-md-4 mt-3 ">
               <div
@@ -685,7 +702,9 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4 ">
-                  <p className="fw-bold">1. What kind of coverage you need:</p>
+                  <p className="fw-bold text-warning  ">
+                    1. What kind of coverage you need:
+                  </p>
                   <p>
                     Choose from options like liability, collision,
                     comprehensive, or personal injury protection.
@@ -700,7 +719,9 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold">2. How much your car is worth:</p>
+                  <p className="fw-bold text-warning  ">
+                    2. How much your car is worth:
+                  </p>
                   <p>
                     Make sure the cost of your insurance policy matches your
                     vehicle's value.
@@ -715,7 +736,7 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold">3. How you drive:</p>
+                  <p className="fw-bold text-warning  ">3. How you drive:</p>
                   <p>
                     Your driving habits, such as how often you drive and what
                     type of driving you do, can affect the cost of the insurance
@@ -732,7 +753,7 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold">
+                  <p className="fw-bold text-warning  ">
                     4. How much you're willing to pay out of pocket:
                   </p>
                   <p>
@@ -752,7 +773,7 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold">6. Discounts:</p>
+                  <p className="fw-bold text-warning  ">5. Discounts:</p>
                   <p>
                     Look for discounts you might be eligible for, such as
                     discounts for having multiple policies, being a safe driver,
@@ -761,17 +782,11 @@ function Nav() {
                 </div>
               </div>
             </div>
-            <p className="text-white p-3">
-              Before buying car insurance online, read the policy details and
-              fine print, and ask questions to clarify anything you need help
-              understanding. Regularly reviewing your car insurance policy can
-              help ensure that it continues to meet your needs and that you're
-              not overpaying for coverage you don't need.
-            </p>
+            
           </div>
         </div>
       </section>
-      <section>
+      <section className="bg-info-subtle mt-5 py-5">
         <div className="container">
           <div className="p-4">
             <p data-aos="fade-up" data-aos-duration="600">
@@ -793,11 +808,11 @@ function Nav() {
           </div>
           <div>
             <h5
-              className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3"
+              className="fw-semibold fs-3 py-2 px-3 rounded-3"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Why is Insurance Important?
+              𝚆𝚑𝚢 𝚒𝚜 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝙸𝚖𝚙𝚘𝚛𝚝𝚊𝚗𝚝?
             </h5>
             <p data-aos="fade-up" data-aos-duration="600">
               The importance of insurance should never be undermined. Insurance
@@ -834,7 +849,11 @@ function Nav() {
             >
               Generates Long-Term Wealth
             </li>
-            <p data-aos="fade-up" data-aos-duration="600" className="d-none d-lg-block">
+            <p
+              data-aos="fade-up"
+              data-aos-duration="600"
+              className="d-none d-lg-block"
+            >
               Life insurance plans like endowment, money-back or Unit-Linked
               Insurance Plans (ULIPs) provide a means to accumulate wealth over
               time. These policies offer long-term savings and investment
@@ -864,11 +883,11 @@ function Nav() {
 
           <div>
             <h5
-              className="fw-semibold fs-3 text-bg-primary py-2 px-3 rounded-3"
+              className="fw-semibold fs-3 py-2 px-3 rounded-3"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Selecting the Right Insurance Plan
+              𝚂𝚎𝚕𝚎𝚌𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚁𝚒𝚐𝚑𝚝 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝙿𝚕𝚊𝚗
             </h5>
 
             <p data-aos="fade-up" data-aos-duration="600">
@@ -939,7 +958,7 @@ function Nav() {
       </section>
       {/* footer */}
       <section className="footerheight bg-black text-white mt-5" id="contact">
-        <div className="row justify-content-around ">
+        <div className="row justify-content-around pt-3 ">
           <div className="col-md-3 mt-3  ">
             <div className="text-center">
               <h2 className="text-danger">Quick Link</h2>
@@ -972,10 +991,9 @@ function Nav() {
             </div>
           </div>
           <div className="col-md-3 mt-3">
-            <div className="text-center">
+            <div className="text-center ">
               <h2 className="text-danger">Address</h2>
-
-              <p>
+              <p className="pt-5">
                 No.4, Rajiv Gandhi Salai, Taramani, Chennai, Tamil Nadu 600 113,
                 India
               </p>
