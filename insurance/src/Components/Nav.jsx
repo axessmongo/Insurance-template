@@ -34,9 +34,9 @@ function Nav() {
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-        <img src={insulogo} className=" logo-img" alt="" />Company Name
-      </a>
-            
+              <img src={insulogo} className=" logo-img" alt="" />Company Name
+            </a>
+
 
             <button
               className="navbar-toggler"
@@ -84,6 +84,12 @@ function Nav() {
           </div>
         </nav>
       </section>
+
+      <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+        <a href="https://axesstechnology.in/contact" target='_blank'>
+          <button className='buy-now-bt'>BuyNow</button></a>
+      </div>
+
       {/* Banner */}
       <section className="herobanner banner mt-5 pt-4 " id="home">
         <div
@@ -353,7 +359,7 @@ function Nav() {
       <section className=" mt-5 bg-info-subtle  py-5">
         <div className="mt-5 container">
           <h2 className="fw-semibold   pb-5 px-3 rounded-3">
-          𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
+            𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
           </h2>
 
           <p data-aos="fade-up">
@@ -574,7 +580,7 @@ function Nav() {
             data-aos="fade-up"
             data-aos-duration="600"
           >
-           𝙽𝚎𝚎𝚍 𝚏𝚘𝚛 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
+            𝙽𝚎𝚎𝚍 𝚏𝚘𝚛 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
           </h5>
 
           <p data-aos="fade-up" data-aos-duration="600">
@@ -689,10 +695,10 @@ function Nav() {
             𝙷𝚘𝚠 𝚝𝚘 𝚌𝚑𝚘𝚘𝚜𝚎 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚌𝚊𝚛 𝚒𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝚙𝚘𝚕𝚒𝚌𝚢 𝚘𝚗𝚕𝚒𝚗𝚎?
           </h2>
           <p className="text-white text-center ">
-              Before buying car insurance online, read the policy details and
-              fine print, and ask questions to clarify anything you need help
-              understanding. 
-            </p>
+            Before buying car insurance online, read the policy details and
+            fine print, and ask questions to clarify anything you need help
+            understanding.
+          </p>
           <div className="row justify-content-around p-5">
             <div className="col-md-4 mt-3 ">
               <div
@@ -781,7 +787,7 @@ function Nav() {
                 </div>
               </div>
             </div>
-            
+
           </div>
         </div>
       </section>
