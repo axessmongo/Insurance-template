@@ -34,7 +34,7 @@ function Nav() {
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src={insulogo} className=" logo-img" alt="" />Company Name
+              <img src={insulogo} className=" logo-img" alt="" />LOGO
             </a>
 
 
@@ -85,10 +85,10 @@ function Nav() {
         </nav>
       </section>
 
-      <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
+      {/* <div className='buy-now d-flex justify-content-center align-items-center rounded-2'>
         <a href="https://axesstechnology.in/contact" target='_blank'>
           <button className='buy-now-bt'>BuyNow</button></a>
-      </div>
+      </div> */}
 
       {/* Banner */}
       <section className="herobanner banner mt-5 pt-4 " id="home">
@@ -999,8 +999,7 @@ function Nav() {
             <div className="text-center ">
               <h2 className="text-danger">Address</h2>
               <p className="pt-5">
-                No.4, Rajiv Gandhi Salai, Taramani, Chennai, Tamil Nadu 600 113,
-                India
+                ABDC CDBA
               </p>
             </div>
           </div>
