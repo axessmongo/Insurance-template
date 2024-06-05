@@ -251,7 +251,7 @@ function Nav() {
         </div>
       </section>
       {/* 𝕋𝕪𝕡𝕖𝕤 𝕆𝕗 𝕀𝕟𝕤𝕦𝕣𝕒𝕟𝕔𝕖 */}
-      <section className="container mt-5" id="types">
+      <section className="container  mt-5" id="types">
         <h1 className="text-center text-danger p-5">𝕋𝕪𝕡𝕖𝕤 𝕆𝕗 𝕀𝕟𝕤𝕦𝕣𝕒𝕟𝕔𝕖</h1>
         <div className="mt-3">
           <div className="row justify-content-center text-center">
@@ -356,7 +356,7 @@ function Nav() {
           </div>
         </div>
       </section>
-      <section className=" mt-5 bg-info-subtle  py-5">
+      <section className=" mt-5 commonbg  py-5">
         <div className="mt-5 container">
           <h2 className="fw-semibold   pb-5 px-3 rounded-3">
             𝚃𝚢𝚙𝚎𝚜 𝚘𝚏 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
@@ -451,7 +451,7 @@ function Nav() {
         </div>
       </section>
       {/* Sample Illustration */}
-      <section className=" mt-5 bg-success-subtle  py-5">
+      <section className=" mt-5 carpolicybg py-5">
         <h1 className="text-center text-danger p-5">𝕊𝕒𝕞𝕡𝕝𝕖 𝕀𝕝𝕝𝕦𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟$$</h1>
         <div className="container mt-5">
           <div className="row">
@@ -573,7 +573,7 @@ function Nav() {
           </div>
         </div>
       </section>
-      <section className=" mt-5 bg-warning-subtle  py-5">
+      <section className=" mt-5 commonbg  py-5">
         <div className=" container">
           <h5
             className="fw-semibold fs-3  py-2 px-3 rounded-3"
@@ -791,7 +791,7 @@ function Nav() {
           </div>
         </div>
       </section>
-      <section className="bg-info-subtle mt-5 py-5">
+      <section className="commonbg mt-5 py-5">
         <div className="container">
           <div className="p-4">
             <p data-aos="fade-up" data-aos-duration="600">
@@ -977,21 +977,21 @@ function Nav() {
             <div className="border1"></div> {/* for the underline */}
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">Search</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">About</a></li>
+              <li><a href="#">About </a></li>
+              <li><a href="#">Core Value</a></li>
+              <li><a href="#">Type</a></li>
             </ul>
           </div>
 
           {/* for some other links */}
           <div className="footer-items">
-            <h3>Recipes</h3>
+            <h3>Insurances</h3>
             <div className="border1"></div> {/* for the underline */}
             <ul>
-              <li><a href="#">Indian</a></li>
-              <li><a href="#">Chinese</a></li>
-              <li><a href="#">Mexican</a></li>
-              <li><a href="#">Italian</a></li>
+              <li><a href="#">Life</a></li>
+              <li><a href="#">Bike</a></li>
+              <li><a href="#">Car</a></li>
+              <li><a href="#">Child</a></li>
             </ul>
           </div>
 
@@ -1016,7 +1016,7 @@ function Nav() {
 
         {/* Footer Bottom start */}
         <div className="footer-bottom">
-          Copyright &copy; Food and Burps 2020.
+          Copyright &copy; Insurances Policy 2020.
         </div>
       </div>
     </div>
