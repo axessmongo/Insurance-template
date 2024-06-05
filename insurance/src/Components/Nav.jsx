@@ -962,62 +962,63 @@ function Nav() {
         </div>
       </section>
       {/* footer */}
-      <section className="footerheight bg-black text-white mt-5" id="contact">
-        <div className="row justify-content-around pt-3 ">
-          <div className="col-md-3 mt-3  ">
-            <div className="text-center">
-              <h2 className="text-danger">Quick Link</h2>
+      <div className="footer">
+        <div className="inner-footer">
 
-              <p>
-                <a href="#home" className="link1">
-                  Home
-                </a>
-              </p>
-              <p>
-                <a href="#about" className="link1">
-                  About
-                </a>
-              </p>
-              <p>
-                <a href="#corevalue" className="link1">
-                  Core value
-                </a>
-              </p>
-              <p>
-                <a href="#types" className="link1">
-                  Types
-                </a>
-              </p>
-              <p>
-                <a href="#contact" className="link1">
-                  Contact
-                </a>
-              </p>
+          {/* for company name and description */}
+          <div className="footer-items">
+            <h1>Company Name</h1>
+            <p>Description of any product or motto of the company.</p>
+          </div>
+
+          {/* for quick links */}
+          <div className="footer-items">
+            <h3>Quick Links</h3>
+            <div className="border1"></div> {/* for the underline */}
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Search</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+
+          {/* for some other links */}
+          <div className="footer-items">
+            <h3>Recipes</h3>
+            <div className="border1"></div> {/* for the underline */}
+            <ul>
+              <li><a href="#">Indian</a></li>
+              <li><a href="#">Chinese</a></li>
+              <li><a href="#">Mexican</a></li>
+              <li><a href="#">Italian</a></li>
+            </ul>
+          </div>
+
+          {/* for contact us info */}
+          <div className="footer-items">
+            <h3>Contact us</h3>
+            <div className="border1"></div>
+            <ul>
+              <li><i className="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
+              <li><i className="fa fa-phone" aria-hidden="true"></i>123456789</li>
+              <li><i className="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+            </ul>
+
+            {/* for social links */}
+            <div className="social-media">
+              <a href="#"><i className="fab fa-instagram"></i></a>
+              <a href="#"><i className="fab fa-facebook"></i></a>
+              <a href="#"><i className="fab fa-google-plus-square"></i></a>
             </div>
           </div>
-          <div className="col-md-3 mt-3">
-            <div className="text-center ">
-              <h2 className="text-danger">Address</h2>
-              <p className="pt-5">
-                ABDC CDBA
-              </p>
-            </div>
-          </div>
-          <div className="col-md-3 mt-3">
-            <div className="text-center">
-              <h2 className="text-danger">Company</h2>
-              <p>Overview</p>
-              <p>Our Leadership</p>
-              <p>Our Journey</p>
-              <p>Our Brands</p>
-              <p>CSR</p>
-            </div>
-          </div>
-          <p className="fw-bold py-4 text-center text-danger">
-            © 2024 All Rights Reserved Insurance Policy
-          </p>
         </div>
-      </section>
+
+        {/* Footer Bottom start */}
+        <div className="footer-bottom">
+          Copyright &copy; Food and Burps 2020.
+        </div>
+      </div>
     </div>
   );
 }

@@ -1,30 +1,105 @@
+.buy-now-bt {
+  text-decoration: none;
+  color: antiquewhite;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  animation: blink 2s 0s infinite;
+  font-size: 17px;
+}
 
-.buy-now-bt{
-    text-decoration: none;
-    color: antiquewhite;
-    border: none;
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    animation: blink 2s 0s infinite;
-    font-size: 17px;
+.buy-now {
+  position: fixed;
+  top: 80px;
+  z-index: 989898;
+  margin-left: 20px;
+}
+
+.buy-now:hover {
+  transform: scale(1.1);
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    background-color: #ce9206;
   }
-  .buy-now{
-    position: fixed;
-    top: 80px;
-    z-index: 989898;
-    margin-left: 20px;
+
+  50% {
+    background-color: rgb(8, 80, 2);
   }
-  .buy-now:hover{
-    transform: scale(1.1);
-  }
-   
-  @keyframes blink{
-    0%,
-    100%{
-      background-color: #ce9206;
-    }
-    50%{
-      background-color: rgb(8, 80, 2);
-    }
-  }
+}
+
+
+
+
+.footer {
+  background-color: #282828;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.inner-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.footer-items {
+  margin: 20px;
+  flex-basis: 200px;
+}
+
+.footer-items h1,
+.footer-items h3 {
+  color: #ffcc00;
+}
+
+.footer-items p,
+.footer-items ul,
+.footer-items li {
+  color: white;
+}
+
+.border1 {
+  width: 50px;
+  height: 2px;
+  background-color: #ffcc00;
+  margin: 10px auto;
+}
+
+.footer-items ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-items ul li {
+  margin: 10px 0;
+}
+
+.footer-items ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-items ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-media a {
+  color: white;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+.social-media a:hover {
+  color: #ffcc00;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  color: #ffcc00;
+}
