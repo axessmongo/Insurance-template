@@ -20,7 +20,7 @@ import car from "../assets/images/car-insu1.png";
 import banner from "../assets/images/banner 1.jpg";
 import banner1 from "../assets/images/banner-1.jpg";
 import banner2 from "../assets/images/banner-2.jpg";
-import insulogo from "../assets/images/newlogo.png";
+import logo1 from "../assets/images/Insurance.png";
 
 function Nav() {
   return (
@@ -34,7 +34,7 @@ function Nav() {
         >
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
-              <img src={insulogo} className=" logo-img" alt="" />LOGO
+              <img src={logo1} className="logo1" alt="" />
             </a>
 
 
@@ -149,27 +149,15 @@ function Nav() {
             </div>
             <div className="col-md-6  d-flex  align-items-center">
               <div className="" data-aos="fade-left" data-aos-duration="1000">
-                <h3 className="text-center">𝙱𝚁𝙸𝙴𝙵 𝙷𝙸𝚂𝚃𝙾𝚁𝚈 𝙾𝙵 𝚃𝙷𝙴 𝙲𝙾𝙼𝙿𝙰𝙽𝚈</h3>
+                <h3 className="text-center">Brief History of Our Company</h3>
                 <p className=" p-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia repellendus officiis, optio tenetur veritatis aliquam
-                  qui est quidem! Repellat ex fuga provident itaque inventore,
-                  dicta nam repellendus aspernatur iure labore? Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Mollitia
-                  repellendus officiis, optio tenetur veritatis aliquam qui est
-                  quidem! Repellat ex fuga provident itaque inventore, dicta nam
-                  repellendus aspernatur iure labore?
+                  Founded in 1995, our insurance company began with a mission to provide comprehensive and reliable coverage
+                  to individuals and businesses. Over the past two decades, we have grown from a small local provider to a
+                  nationally recognized name in the insurance industry. Our commitment to innovation, customer service, and
+                  community involvement has driven our success and allowed us to expand our offerings. Today, we proudly serve
+                  thousands of clients, helping them protect what matters most with a wide range of insurance solutions.
                 </p>
-                <p className=" p-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia repellendus officiis, optio tenetur veritatis aliquam
-                  qui est quidem! Repellat ex fuga provident itaque inventore,
-                  dicta nam repellendus aspernatur iure labore? Lorem ipsum
-                  dolor sit amet consectetur adipisicing elit. Mollitia
-                  repellendus officiis, optio tenetur veritatis aliquam qui est
-                  quidem! Repellat ex fuga provident itaque inventore, dicta nam
-                  repellendus aspernatur iure labore?
-                </p>
+
               </div>
             </div>
           </div>
@@ -179,7 +167,7 @@ function Nav() {
       <section className="container mt-5" id="corevalue">
         <div>
           <h1 className="text-center text-danger m-5 corevalue">
-            𝕆𝕌ℝ ℂ𝕆ℝ𝔼 𝕍𝔸𝕃𝕌𝔼𝕊
+            Our Core Principles
           </h1>
           <div className="row justify-content-around">
             <div
@@ -191,17 +179,13 @@ function Nav() {
                 <div className="p-5 bg-body-secondary rounded-4">
                   <div className="text-center mb-3">
                     <img src={sevabhav} alt="" />
-                    <h4>Sevabhav</h4>
+                    <h4>Integrity</h4>
                   </div>
                   <p>
-                    We encourage a culture of service and helpfulness so that
-                    our actions positively impact society. Our commitment to
-                    Seva defines and differentiates us.
+                    We uphold the highest standards of honesty and ethics in everything we do. Our commitment to
+                    integrity ensures that our clients can trust us to protect their interests.
                   </p>
-                  <p>
-                    Positive social Impact, Helpfulness, Culture of Service,
-                    Mindfulness
-                  </p>
+
                 </div>
               </div>
             </div>
@@ -213,16 +197,12 @@ function Nav() {
               <div className="p-5 bg-warning-subtle rounded-4">
                 <div className="text-center mb-3">
                   <img src={excellence} alt="" />
-                  <h4>Excellence</h4>
+                  <h4>Customer-Centric</h4>
                 </div>
+
                 <p>
-                  We encourage a culture of service and helpfulness so that our
-                  actions positively impact society. Our commitment to Seva
-                  defines and differentiates us.
-                </p>
-                <p>
-                  Positive social Impact, Helpfulness, Culture of Service,
-                  Mindfulness
+                  We prioritize our clients' needs above all else. By listening and responding to their
+                  feedback, we continually improve our services and provide personalized solutions.
                 </p>
               </div>
             </div>
@@ -234,17 +214,14 @@ function Nav() {
               <div className="p-5 bg-info-subtle rounded-4">
                 <div className="text-center mb-3">
                   <img src={credibility} alt="" />
-                  <h4>Credibility</h4>
+                  <h4>Innovation</h4>
                 </div>
                 <p>
-                  We encourage a culture of service and helpfulness so that our
-                  actions positively impact society. Our commitment to Seva
-                  defines and differentiates us.
+                  We embrace innovation to stay ahead in the dynamic insurance industry. By leveraging
+                  cutting-edge technology and creative thinking, we offer innovative products and services that meet
+                  evolving needs.
                 </p>
-                <p>
-                  Positive social Impact, Helpfulness, Culture of Service,
-                  Mindfulness
-                </p>
+
               </div>
             </div>
           </div>
@@ -374,12 +351,8 @@ function Nav() {
             Life insurance :
           </li>
           <p data-aos="fade-up" data-aos-duration="600">
-            Life insurance is what you can avail in order to safeguard your
-            family in case of your death during the tenor of the policy.The most
-            basic form of life insurance available to buyers is term insurance.
-            Life insurance helps secure your family financially with a lump sum
-            amount that is paid out in the event of the policy holder’s death
-            within the policy period
+            Provides financial protection to beneficiaries in case of the policyholder's death. It can
+            also provide savings and investment opportunities.
           </p>
           <li
             className="fw-bold text-success fs-4 pb-3"
@@ -389,25 +362,19 @@ function Nav() {
             Health insurance :
           </li>
           <p data-aos="fade-up" data-aos-duration="600">
-            This is purchased for covering medical expenses revolving around
-            various health issues, including hospitalisation, treatments and so
-            on. These insurance plans come in handy in case of medical
-            emergencies; you can also avail of cashless facility across network
-            hospitals of the insurer
+            Insurance: Covers medical expenses incurred by the insured, providing financial protection
+            against healthcare costs, including hospitalization, surgeries, and treatments.
           </p>
           <li
             className="fw-bold text-success fs-4 pb-3 "
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            Child Plans :
+            Motor Insurance:
           </li>
           <p data-aos="fade-up" data-aos-duration="600">
-            These insurance policies are savings instruments that help in
-            generating lump sum funds whenever children reach a certain age for
-            pursuing higher studies. In these plans, the life assured is that of
-            the child or the recipient of the funds while the parents are the
-            policy owners
+            Mandatory in India, it covers losses related to a vehicle and its passengers, including
+            accidents, theft, and third-party liability.
           </p>
           <li
             className="fw-bold text-success fs-4 pb-3"
@@ -417,37 +384,58 @@ function Nav() {
             Home insurance :
           </li>
           <p data-aos="fade-up" data-aos-duration="600">
-            These insurance plans cover any damages to the home on account of
-            accidents, mishaps and natural calamities, among other such events
+            Covers the structure and contents of a home against risks such as fire, natural
+            disasters, burglary, and more.
           </p>
           <li
             className="fw-bold text-success fs-4 pb-3"
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            Fire Insurance
+            Travel Insurance:
           </li>
 
           <p data-aos="fade-up" data-aos-duration="600">
-            Fire insurance has been designed to reimburse the cost of repair,
-            reconstruction or replacement of the property damaged or destroyed
-            in a fire. Besides, fire insurance also covers property loss or
-            damages due to smoke, water and damages caused by the firefighters.
+            Provides coverage for unexpected events during domestic and international travel,
+            including trip cancellation, medical emergencies, and lost luggage.
           </p>
           <li
             className="fw-bold text-success fs-4 pb-3 "
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            Bike Insurance
+            Crop Insurance:
           </li>
 
           <p data-aos="fade-up" data-aos-duration="600">
-            A comprehensive bike insurance policy covers both the own damages
-            and third-party liabilities. Under its own damage, it gives
-            protection against burglary or theft and damage caused by accidents,
-            natural calamities, and manmade disasters.
+            Provides financial support to farmers in case of crop failure due to natural calamities,
+            pests, or diseases.
           </p>
+          <li
+            className="fw-bold text-success fs-4 pb-3 "
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Personal Accident Insurance:
+          </li>
+
+          <p data-aos="fade-up" data-aos-duration="600">
+            Provides financial compensation in case of accidental death, disability, or
+            injury.
+          </p>
+          <li
+            className="fw-bold text-success fs-4 pb-3 "
+            data-aos="fade-up"
+            data-aos-duration="600"
+          >
+            Business Insurance:
+          </li>
+
+          <p data-aos="fade-up" data-aos-duration="600">
+            Protects businesses from financial losses due to risks such as property damage,
+            liability, and business interruption.
+          </p>
+
         </div>
       </section>
       {/* Sample Illustration */}
@@ -580,108 +568,47 @@ function Nav() {
             data-aos="fade-up"
             data-aos-duration="600"
           >
-            𝙽𝚎𝚎𝚍 𝚏𝚘𝚛 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎
+
+            Why Insurance Is a Must for Everyone:
           </h5>
 
-          <p data-aos="fade-up" data-aos-duration="600">
-            Insurance plans are beneficial to anyone looking to protect their
-            family, assets/property and themselves from financial risk/losses:
-          </p>
-          <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-            Insurance plans will help you pay for medical emergencies,
-            hospitalisation, contraction of any illnesses and treatment, and
-            medical care required in the future.
-          </li>
-          <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-            The financial loss to the family due to the unfortunate death of the
-            sole earner can be covered by insurance plans. The family can also
-            repay any debts like home loans or other debts which the person
-            insured may have incurred in his/her lifetime
-          </li>
-          {/* <li className="pb-3 d-none d-lg-block" data-aos="fade-up" data-aos-duration="600">
-            Insurance plans will help your family maintain their standard of
-            living in case you are not around in the future. This will help them
-            cover the costs of running the household through the insurance lump
-            sum payout. The insurance money will give your family some
-            much-needed breathing space along with coverage for all expenditure
-            in case of death/accident/medical emergency of the policyholder
-          </li> */}
-          <li
-            className="pb-3 d-none d-lg-block"
-            data-aos="fade-up"
-            data-aos-duration="600"
-          >
-            Insurance plans will help in protecting the future of your child in
-            terms of his/her education. They will make sure that your children
-            are financially secured while pursuing their dreams and ambitions
-            without any compromises, even when you are not around
-          </li>
-          {/* <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-            IMany insurance plans come with savings and investment schemes along
-            with regular coverage. These help in building wealth/savings for the
-            future through regular investments. You pay premiums regularly and a
-            portion of the same goes towards life coverage while the other
-            portion goes towards either a savings plan or investment plan,
-            whichever you choose based on your future goals and needs
-          </li> */}
-          {/* <li className="pb-3" data-aos="fade-up" data-aos-duration="600">
-            Insurance helps protect your home in the event of any unforeseen
-            calamity or damage. Your home insurance plan will help you get
-            coverage for damages to your home and pay for the cost of repairs or
-            rebuilding, whichever is needed. If you have coverage for valuables
-            and items inside the house, then you can purchase replacement items
-            with the insurance money
-          </li> */}
 
-          <div>
-            <li
-              className="fw-bold text-success fs-4 pb-3"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              Promotes Personal Economic Growth
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600">
-              One of the most important benefits of life insurance is that it
-              enables you to save and grow your money. You can use this amount
-              to meet your long-term goals, like buying a house, starting a
-              venture, saving for your child’s education or wedding, and more
-            </p>
-          </div>
-          <div>
-            <li
-              className="fw-bold text-success fs-4 pb-3"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              Useful for retirement planning
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600">
-              Life insurance can enable you to stay financially independent even
-              during your retirement. Life insurance plans like annuity plans
-              provide you with a fixed income for life. They are low-risk plans
-              that help you maintain your current lifestyle, meet medical
-              expenses and meet your post-retirement goals
-            </p>
-          </div>
-          <div>
-            <li
-              className="fw-bold text-success fs-4 pb-3"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              Provides tax benefits
-            </li>
-            <p data-aos="fade-up" data-aos-duration="600">
-              Life insurance helps you plan for the future, while helping you
-              save tax* in the present. The premiums paid under the policy are
-              allowed as tax* deductions of up to ₹ 1.5 lakh per annum subject
-              to conditions under Section 80C of The Income Tax Act, 1961. You
-              can save up to ₹ 46,800/- in taxes* every year. Further, the
-              amounts received under the policy are also exempt* subject to
-              conditions under Section 10(10D) of the Income Tax Act, 1961.
-            </p>
-          </div>
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Financial Protection:
+          </li>
+          <p>Insurance provides financial protection against unexpected events that can lead to
+            significant expenses, such as medical emergencies, accidents, or damage to property.</p>
+
+
+
+
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Risk Management:
+          </li>
+          <p>It helps individuals and families manage various risks effectively, including health
+            risks, liability risks, and risks associated with property and assets.</p>
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Peace of Mind:
+          </li>
+          <p>Having insurance gives peace of mind, knowing that you are financially protected against
+            unforeseen circumstances and that your loved ones are taken care of in your absence.</p>
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Legal Requirements:
+          </li>
+          <p>Some types of insurance, like motor insurance and health insurance, are
+            mandatory by law in India, ensuring compliance and protecting others in case of accidents or health
+            emergencies.</p>
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Savings and Investment:
+          </li>
+          <p>Certain insurance policies, such as life insurance and retirement plans, also act
+            as savings and investment vehicles, providing long-term financial security and growth.</p>
+          <li className="fw-bold text-success fs-4 pb-3" data-aos="fade-up" data-aos-duration="600">
+            Support During Emergencies:
+          </li>
+          <p>Insurance provides immediate financial support during emergencies,
+            ensuring that you can access necessary medical care, repair or replace damaged property, and recover
+            from losses quickly.</p>
         </div>
       </section>
       {/* car insurance policy  */}
@@ -694,11 +621,7 @@ function Nav() {
           >
             𝙷𝚘𝚠 𝚝𝚘 𝚌𝚑𝚘𝚘𝚜𝚎 𝚝𝚑𝚎 𝚛𝚒𝚐𝚑𝚝 𝚌𝚊𝚛 𝚒𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝚙𝚘𝚕𝚒𝚌𝚢 𝚘𝚗𝚕𝚒𝚗𝚎?
           </h2>
-          <p className="text-white text-center ">
-            Before buying car insurance online, read the policy details and
-            fine print, and ask questions to clarify anything you need help
-            understanding.
-          </p>
+
           <div className="row justify-content-around p-5">
             <div className="col-md-4 mt-3 ">
               <div
@@ -708,11 +631,12 @@ function Nav() {
               >
                 <div className="p-4 ">
                   <p className="fw-bold text-warning  ">
-                    1. What kind of coverage you need:
+                    1. Assess Your Needs and Goals:
                   </p>
                   <p>
-                    Choose from options like liability, collision,
-                    comprehensive, or personal injury protection.
+                    * Determine why you need life insurance (e.g., income replacement, debt repayment, education
+                    funding).
+                    * Calculate how much coverage you need based on your financial obligations and future goals.
                   </p>
                 </div>
               </div>
@@ -725,11 +649,11 @@ function Nav() {
               >
                 <div className="p-4">
                   <p className="fw-bold text-warning  ">
-                    2. How much your car is worth:
+                    2. Understand Types of Life Insurance:
                   </p>
                   <p>
-                    Make sure the cost of your insurance policy matches your
-                    vehicle's value.
+                    * Learn about different types of life insurance (e.g., term life, whole life, universal life).
+                    * Consider the benefits and drawbacks of each type based on your needs and budget.
                   </p>
                 </div>
               </div>
@@ -741,12 +665,10 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold text-warning  ">3. How you drive:</p>
+                  <p className="fw-bold text-warning  ">Compare Insurance Providers:</p>
                   <p>
-                    Your driving habits, such as how often you drive and what
-                    type of driving you do, can affect the cost of the insurance
-                    if you opt for pay-as-you-drive or pay-how-you-drive
-                    policies.
+                    * Research insurance companies and their financial strength ratings.
+                    * Compare premiums, coverage options, and customer reviews to find a reputable provider.
                   </p>
                 </div>
               </div>
@@ -759,14 +681,11 @@ function Nav() {
               >
                 <div className="p-4">
                   <p className="fw-bold text-warning  ">
-                    4. How much you're willing to pay out of pocket:
+                    4. Get Quotes and Customize Your Policy:
                   </p>
                   <p>
-                    Think about your budget and how much risk you're comfortable
-                    with. In case of an accident, if you’re not comfortable
-                    spending money from your own pocket for your car repairs,
-                    opt for the Own Damage cover instead of a Third-party
-                    policy.
+                    * Request quotes based on your coverage needs and personal information.
+                    * Customize your policy by selecting the coverage amount, policy term, and any additional riders.
                   </p>
                 </div>
               </div>
@@ -778,11 +697,10 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold text-warning  ">5. Discounts:</p>
+                  <p className="fw-bold text-warning  ">Review and Purchase:</p>
                   <p>
-                    Look for discounts you might be eligible for, such as
-                    discounts for having multiple policies, being a safe driver,
-                    or driving less.
+                    * Review the policy details, terms, and conditions carefully.
+                    * Purchase the life insurance policy that best meets your needs and provides adequate coverage.
                   </p>
                 </div>
               </div>
@@ -817,54 +735,36 @@ function Nav() {
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              𝚆𝚑𝚢 𝚒𝚜 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝙸𝚖𝚙𝚘𝚛𝚝𝚊𝚗𝚝?
+              Here are 5 points to guide you in choosing the right insurance plan:
             </h5>
-            <p data-aos="fade-up" data-aos-duration="600">
-              The importance of insurance should never be undermined. Insurance
-              acts as a vital shield against unforeseen circumstances. It
-              protects you from unplanned expenses and offers a financial
-              cushion from accidents, illnesses and more. Insurance safeguards
-              the financial interests of your family in your absence. It helps
-              them cover immediate expenses and secures their long-term
-              financial stability.
-            </p>
-            <p data-aos="fade-up" data-aos-duration="600">
-              Below are some reasons why insurance is important:
-            </p>
+
             <li
               className="fw-bold text-success fs-4 pb-3"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Promotes Personal Economic Growth
+              Assess Your Coverage Needs:
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
-              Insurance acts as a catalyst for personal economic growth by
-              empowering surviving family members to pursue their aspirations in
-              the absence of the policyholder. It provides a safety net to
-              ensure your loved ones have access to essential resources, such as
-              education. Your loved ones can also use the insurance payout to
-              improve their financial situation by investing in businesses,
-              purchasing real estate and more.
+              Evaluate your current financial situation, including your income,
+              expenses, debts, and dependents. Consider what financial obligations you want the insurance to cover,
+              such as mortgage payments, education expenses, or living expenses for your family.
             </p>
             <li
               className="fw-bold text-success fs-4 pb-3 d-none d-lg-block"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Generates Long-Term Wealth
+              Understand Different Types of Insurance:
             </li>
             <p
               data-aos="fade-up"
               data-aos-duration="600"
               className="d-none d-lg-block"
             >
-              Life insurance plans like endowment, money-back or Unit-Linked
-              Insurance Plans (ULIPs) provide a means to accumulate wealth over
-              time. These policies offer long-term savings and investment
-              opportunities and allow you to secure your financial future. Life
-              insurance can be used for various financial goals like retirement,
-              a child's higher education and others.
+              Learn about the various types of insurance plans available
+              (e.g., term life, whole life, health insurance, etc.) and their respective features. Each type of insurance plan
+              offers different benefits and serves different purposes, so choose the one that best meets your needs.
             </p>
             {/* <li
                 className="fw-bold text-success fs-4 pb-3"
@@ -887,46 +787,44 @@ function Nav() {
           </div>
 
           <div>
-            <h5
-              className="fw-semibold fs-3 py-2 px-3 rounded-3"
-              data-aos="fade-up"
-              data-aos-duration="600"
-            >
-              𝚂𝚎𝚕𝚎𝚌𝚝𝚒𝚗𝚐 𝚝𝚑𝚎 𝚁𝚒𝚐𝚑𝚝 𝙸𝚗𝚜𝚞𝚛𝚊𝚗𝚌𝚎 𝙿𝚕𝚊𝚗
-            </h5>
 
+
+            <li
+              className="fw-bold text-success fs-4 pb-3"
+              data-aos="fade-up"
+              data-aos-duration="600"
+            >
+              Compare Plans and Providers:
+            </li>
             <p data-aos="fade-up" data-aos-duration="600">
-              Selecting the right insurance plan is important to maximise its
-              potential. There are a number of factors that can impact the
-              effectiveness of insurance. Below are some of them:
+              MakResearch and compare insurance plans from different providers. Look at
+              factors such as premium costs, coverage limits, deductibles, co-pays, and exclusions. Consider the
+              financial strength and reputation of the insurance company as well as customer reviews and feedback.
             </p>
             <li
               className="fw-bold text-success fs-4 pb-3"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Adequate Coverage
+              Consider Your Budget:
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
-              Make sure to analyse your financial needs and select a plan that
-              offers adequate financial coverage. Insufficient coverage may help
-              you save some money at the time of purchase but can lead to
-              compromised financial security in an emergency.
+              Determine how much you can afford to pay in premiums without straining your
+              budget. Ensure that the premium payments fit comfortably into your monthly expenses for the entire
+              duration of the policy.
             </p>
             <li
               className="fw-bold text-success fs-4 pb-3"
               data-aos="fade-up"
               data-aos-duration="600"
             >
-              Ability to Pay Premium
+              Review the Policy Details:
             </li>
             <p data-aos="fade-up" data-aos-duration="600">
-              The plan's premium is another essential aspect to consider when
-              selecting the right insurance plan. You may have to pay the
-              premium for years, depending on the policy term. Therefore, aim to
-              strike a balance between adequate coverage, premiums and your
-              monthly expenses. If the premium is too high, you may find it hard
-              to continue paying for the policy in the long run.
+              Carefully read and understand the terms and conditions of the insurance
+              policy before making a decision. Pay attention to coverage limits, exclusions, waiting periods, and any
+              additional benefits or riders that may be included. Make sure the policy meets your coverage needs and
+              provides adequate protection for you and your family.
             </p>
             {/* <li
               className="fw-bold text-success fs-4 pb-3"
@@ -967,7 +865,9 @@ function Nav() {
 
           {/* for company name and description */}
           <div className="footer-items">
-            <h1>Company Name</h1>
+            <a className="navbar-brand" href="#">
+              <img src={logo1} className="logo1" alt="" />
+            </a>
             <p>Description of any product or motto of the company.</p>
           </div>
 
@@ -1000,9 +900,9 @@ function Nav() {
             <h3>Contact us</h3>
             <div className="border1"></div>
             <ul>
-              <li><i className="fa fa-map-marker" aria-hidden="true"></i>XYZ, abc</li>
-              <li><i className="fa fa-phone" aria-hidden="true"></i>123456789</li>
-              <li><i className="fa fa-envelope" aria-hidden="true"></i>xyz@gmail.com</li>
+              <li><i className="fa fa-map-marker" aria-hidden="true"></i>Alwarpet</li>
+              <li><i className="fa fa-phone" aria-hidden="true"></i>987654321</li>
+              <li><i className="fa fa-envelope" aria-hidden="true"></i>trustguard@gmail.com</li>
             </ul>
 
             {/* for social links */}
@@ -1016,7 +916,7 @@ function Nav() {
 
         {/* Footer Bottom start */}
         <div className="footer-bottom">
-          Copyright &copy; Insurances Policy 2020.
+          Copyright &copy; Trustguard Insurances 2020.
         </div>
       </div>
     </div>
