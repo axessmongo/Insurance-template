@@ -17,8 +17,8 @@ import senior from "../assets/images/senior.png";
 import accident from "../assets/images/accident.png";
 import healthbanner from "../assets/images/health-banner1.png";
 import car from "../assets/images/car-insu1.png";
-import banner from "../assets/images/banner 1.jpg";
-import banner1 from "../assets/images/banner-1.jpg";
+import banner from "../assets/images/insimg.jpg";
+import banner1 from "../assets/images/insurance1.avif";
 import banner2 from "../assets/images/banner-2.jpg";
 import logo1 from "../assets/images/Insurance.png";
 
@@ -100,14 +100,14 @@ function Nav() {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={banner}
+                src={banner1}
                 className="d-block  imgsz img-fluid"
                 alt="Slide 1"
               />
             </div>
             <div className="carousel-item">
               <img
-                src={banner1}
+                src={banner}
                 className="d-block imgsz img-fluid"
                 alt="Slide 2"
               />
@@ -665,7 +665,7 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold text-warning  ">Compare Insurance Providers:</p>
+                  <p className="fw-bold text-warning  ">3.Compare Insurance Providers:</p>
                   <p>
                     * Research insurance companies and their financial strength ratings.
                     * Compare premiums, coverage options, and customer reviews to find a reputable provider.
@@ -697,7 +697,7 @@ function Nav() {
                 data-aos-duration="1000"
               >
                 <div className="p-4">
-                  <p className="fw-bold text-warning  ">Review and Purchase:</p>
+                  <p className="fw-bold text-warning  ">5.Review and Purchase:</p>
                   <p>
                     * Review the policy details, terms, and conditions carefully.
                     * Purchase the life insurance policy that best meets your needs and provides adequate coverage.
@@ -916,7 +916,7 @@ function Nav() {
 
         {/* Footer Bottom start */}
         <div className="footer-bottom">
-          Copyright &copy; Trustguard Insurances 2020.
+          Copyright &copy;2024 Trustguard Insurance 
         </div>
       </div>
     </div>
