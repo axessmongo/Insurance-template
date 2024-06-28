@@ -55,7 +55,7 @@ function Nav() {
             >
               <ul className="navbar-nav mb-3 heading5 p-2 mb-lg-0 text-center">
                 <li className="nav-item">
-                  <a className="nav-link active px-3" href="#home">
+                  <a className="nav-link active px-3" href="./">
                     Home
                   </a>
                 </li>
@@ -860,7 +860,7 @@ function Nav() {
         </div>
       </section>
       {/* footer */}
-      <div className="footer">
+      <div className="footer" id="contact">
         <div className="inner-footer">
 
           {/* for company name and description */}
