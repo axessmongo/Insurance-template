@@ -440,7 +440,7 @@ function Nav() {
       </section>
       {/* Sample Illustration */}
       <section className=" mt-5 carpolicybg py-5">
-        <h1 className="text-center text-danger p-5">𝕊𝕒𝕞𝕡𝕝𝕖 𝕀𝕝𝕝𝕦𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟$$</h1>
+        <h1 className="text-center text-danger p-5">𝕊𝕒𝕞𝕡𝕝𝕖 𝕀𝕝𝕝𝕦𝕤𝕥𝕣𝕒𝕥𝕚𝕠𝕟₹₹</h1>
         <div className="container mt-5">
           <div className="row">
             <div
@@ -868,7 +868,7 @@ function Nav() {
             <a className="navbar-brand" href="#">
               <img src={logo1} className="logo1" alt="" />
             </a>
-            <p>Description of any product or motto of the company.</p>
+            
           </div>
 
           {/* for quick links */}
@@ -902,7 +902,7 @@ function Nav() {
             <ul>
               <li><i className="fa fa-map-marker" aria-hidden="true"></i>Alwarpet</li>
               <li><i className="fa fa-phone" aria-hidden="true"></i>987654321</li>
-              <li><i className="fa fa-envelope" aria-hidden="true"></i>trustguard@gmail.com</li>
+              <li><i className="fa fa-envelope" aria-hidden="true"></i>info@trustguardinsurance.in</li>
             </ul>
 
             {/* for social links */}
