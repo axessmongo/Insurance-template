@@ -901,7 +901,7 @@ function Nav() {
             <div className="border1"></div>
             <ul>
               <li><i className="fa fa-map-marker" aria-hidden="true"></i>Alwarpet</li>
-              <li><i className="fa fa-phone" aria-hidden="true"></i>987654321</li>
+              {/* <li><i className="fa fa-phone" aria-hidden="true"></i>987654321</li> */}
               <li><i className="fa fa-envelope" aria-hidden="true"></i>info@trustguardinsurance.in</li>
             </ul>
 
